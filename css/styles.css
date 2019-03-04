@@ -1,0 +1,403 @@
+html, body
+{
+  height: 100%;
+}
+.container
+{
+  height: 100%;
+}
+body
+{
+  background-color: #000;
+}
+ul
+{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.aboutLinks li
+{
+  list-style: none;
+  display: inline;
+  padding: 0px 25px;
+}
+.navOverlay-content li
+{
+  padding: 20px 0px;
+  list-style: none;
+}
+.icon
+{
+  width: 20px;
+  height: 20px;
+}
+.workImg
+{
+  position: fixed;
+  z-index: -99;
+  top: -10%;
+  left: 0;
+}
+.swiper-container, .swiper-wrapper
+{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+.swiper-slide
+{
+   text-align: center;
+   font-size: 18px;
+   /* Center slide text vertically */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+ }
+ .parallax-bg
+ {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(270deg, #272a2c, #111);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+  }
+ .swiper-pagination-custom
+ {
+   width: 100% !important;
+ }
+ br
+ {
+    margin-top: 5%;
+ }
+ .swiper-slide
+ {
+    background-color: #000;
+ }
+ .mainImage, .wideProjectImage, .longProjectImage,
+ {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+  .aboutImage
+ {
+   width: 60%;
+   height: auto;
+   animation-duration: .2s;
+   animation-timing-function: ease-in-out;
+   animation-delay: .4s;
+   animation-fill-mode: both;
+   animation-name: in;
+ }
+ .aboutLinks
+{
+  animation-duration: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .6s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+.mainImage
+{
+  width: 70vw;
+  height: auto;
+}
+.longProjectImage
+ {
+   width: 30vw;
+   height: auto;
+ }
+ .wideProjectImage
+ {
+   width: 45vw;
+   height: auto;
+ }
+ .projectButtonAbout
+ {
+   position: fixed;
+   right: 40px;
+   top: 50%;
+   z-index: 89;
+ }
+ .homeButtonAbouts
+ {
+   position: fixed;
+   left: 40px;
+   top: 50%;
+   z-index: 99;
+ }
+.photo
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   transition: transform .5s ease-out;
+ }
+ .scrollImage
+ {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   width: 100vw;
+   height: auto;
+   transform: translate(-50%, 5%);
+ }
+.contactNav li
+{
+  margin: 0px 100px;
+}
+.topNav
+{
+  position: absolute;
+  margin: 0 auto;
+  top: 6%;
+}
+.topNav li
+{
+  display: inline;
+  padding: 0px 50px;
+}
+.swiper-button-prev, .swiper-button-next
+{
+  top: 50% !important;
+}
+.swiper-button-prev
+{
+  left: 5% !important;
+}
+.swiper-button-next
+{
+  right: 5% !important;
+}
+.navOverlay
+{
+  float: right;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  overflow: hidden;
+  transition: 0.6s;
+  display: none;
+}
+.navOverlay-content
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.navOverlay-content a
+{
+  font-size: 4rem;
+}
+a, .github
+{
+  transition-duration: .3s;
+}
+a:hover, .github:hover
+{
+  filter: blur(5px) brightness(30%);
+}
+.menuIcon
+{
+  position: fixed;
+  top: 50%;
+  left: 90%;
+  z-index: 100;
+}
+.slideProjectName
+{
+  font-size: 3em;
+  position: absolute;
+  z-index: 10;
+}
+.slideProjectSubtitle
+{
+  padding-top: 100px;
+  font-size: 1.1em;
+  position: absolute;
+  z-index: 10;
+}
+.hidden
+{
+  opacity: 0;
+}
+.animateText
+{
+  animation-name: slideIn;
+  animation-duration: .3s;
+  animation-delay: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+  opacity: 1;
+}
+.testIm
+{
+  position: absolute;
+  top: 47%;
+  margin: 0 auto;
+  z-index: 199;
+  width: 700px !important;
+  height: 80px !important;
+}
+.animateMenu, .animateMenuReverse
+{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.animateMenu
+{
+  -webkit-animation-name: in;  /* Safari 4.0 - 8.0 */
+  animation-name: in;
+  animation-delay: .4s;
+}
+.animateMenuReverse
+{
+  -webkit-animation-name: out;  /* Safari 4.0 - 8.0 */
+  animation-name: out;
+}
+
+/* KEYFRAMES */
+/* KEYFRAMES */
+/* KEYFRAMES */
+
+@-webkit-keyframes in
+{
+  0%
+  {
+    filter: blur(1);
+    opacity: 0;
+  }
+  70%
+  {
+    filter: blur(1);
+  }
+  100%
+  {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes in
+{
+  0%
+  {
+    filter: blur(1);
+    opacity: 0;
+  }
+  70%
+  {
+    filter: blur(1);
+  }
+  100%
+  {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideIn
+{
+  0%
+  {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes slideIn
+{
+  0%
+  {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes out
+{
+  0%
+  {
+    left: 50%;
+  }
+  100%
+  {
+    left: -50%;
+  }
+}
+@keyframes out
+{
+  0%
+  {
+    filter: blur(0);
+    opacity: 1;
+  }
+  100%
+  {
+    filter: blur(1);
+    opacity: 0;
+  }
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+@media (max-width: 768px)
+{
+  .menuIcon
+  {
+    top: 3%;
+    left: 85%;
+  }
+  .text, .image1, .image2
+  {
+    width: 90% !important;
+  }
+  .mainImage, .aboutImage
+  {
+    width: 100%;
+  }
+  .mainImage, .wideProjectImage, .longProjectImage
+  {
+    width: 80vw;
+  }
+  .sub
+  {
+    height: 70%;
+  }
+}
