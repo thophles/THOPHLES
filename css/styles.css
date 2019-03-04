@@ -85,7 +85,7 @@ ul
  {
     background-color: #000;
  }
- .mainImage, .wideProjectImage, .longProjectImage, .homeImage
+ .mainImage, .wideProjectImage, .longProjectImage, .homeImage,
  {
    position: absolute;
    top: 50%;
