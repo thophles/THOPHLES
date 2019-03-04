@@ -85,7 +85,7 @@ ul
  {
     background-color: #000;
  }
- .mainImage, .wideProjectImage, .longProjectImage,
+ .mainImage, .wideProjectImage, .longProjectImage, .homeImage
  {
    position: absolute;
    top: 50%;
@@ -110,7 +110,7 @@ ul
   animation-fill-mode: both;
   animation-name: slideIn;
 }
-.mainImage
+.mainImage, .homeImage
 {
   width: 70vw;
   height: auto;
@@ -388,7 +388,7 @@ a:hover, .github:hover
   {
     width: 90% !important;
   }
-  .mainImage, .aboutImage
+  .homeImage, .aboutImage
   {
     width: 100%;
   }
@@ -398,6 +398,14 @@ a:hover, .github:hover
   }
   .sub
   {
-    height: 70%;
+    height: 80%;
+  }
+  .github
+  {
+    width: 15% !important;
+  }
+  .hyperlink
+  {
+    width: 55% !important;
   }
 }
