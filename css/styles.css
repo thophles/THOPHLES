@@ -115,6 +115,15 @@ ul
   width: 70vw;
   height: auto;
 }
+.homeImage
+{
+  overflow: hidden;
+}
+#vid
+{
+  width: 100%;
+  height: auto;
+}
 .longProjectImage
  {
    width: 30vw;
@@ -377,12 +386,13 @@ a:hover, .github:hover
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 
+
 @media (max-width: 768px)
 {
   .menuIcon
   {
     top: 3%;
-    left: 85%;
+    left: 90%;
   }
   .text, .image1, .image2
   {
@@ -398,7 +408,7 @@ a:hover, .github:hover
   }
   .sub
   {
-    height: 80%;
+    height: 100%;
   }
   .github
   {
@@ -407,5 +417,28 @@ a:hover, .github:hover
   .hyperlink
   {
     width: 55% !important;
+  }
+}
+
+@media (max-width: 420px)
+{
+  .menuIcon
+  {
+    top: 3%;
+    left: 85%;
+  }
+  .sub
+  {
+    height: 80%;
+  }
+  .homeImage
+  {
+    overflow: hidden;
+  }
+  #vid
+  {
+    width: 100%;
+    height: 100%;
+    transform:scale(1.5);
   }
 }
