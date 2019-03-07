@@ -228,7 +228,7 @@ a, .github
 }
 a:hover, .github:hover
 {
-  filter: blur(5px) brightness(30%);
+  filter: blur(3px) brightness(50%);
 }
 .menuIcon
 {
@@ -258,7 +258,7 @@ a:hover, .github:hover
 {
   animation-name: slideIn;
   animation-duration: .3s;
-  animation-delay: .5s;
+  animation-delay: .2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-fill-mode: both;
@@ -397,6 +397,10 @@ a:hover, .github:hover
   .text, .image1, .image2
   {
     width: 90% !important;
+  }
+  .bottomLink2
+  {
+    width: 60% !important;
   }
   .homeImage, .aboutImage
   {
