@@ -446,3 +446,11 @@ a:hover, .github:hover
     transform:scale(1.5);
   }
 }
+@media (max-width: 320px)
+{
+  .menuIcon
+  {
+    top: 3%;
+    left: 82%;
+  }
+}
