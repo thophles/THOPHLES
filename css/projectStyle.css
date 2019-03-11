@@ -27,6 +27,14 @@ h3
 {
   border-radius: 10px;
 }
+#lockContainer
+{
+  display: block;
+}
+#bmwContainer
+{
+  display: none;
+}
 @media (max-width: 420px)
 {
   .videowrap

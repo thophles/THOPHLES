@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Thophles: Neural Poetry</title>
+<title>Thophles: BMW</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 <meta name="viewport" content="shrink-to-fit=no">
 <meta name="viewport" content="width=device-width">
@@ -12,62 +12,103 @@
 <link rel="stylesheet" href="../css/hamburgers.css" type="text/css">
 </head>
 <body onload="animateHTML().init();">
-<br>
-<br>
-<br>
-<br>
-<div class="container-fluid">
+<div class="container" id="lockContainer">
+    <div class="row h-100">
+      <div class="col-sm-12 my-auto" align="center">
+        <div>
+          <img class="aboutImage" src="../assets/security.svg" alt="Image description."/>
+        </div>
+        <br>
+        <br>
+          <div class="aboutLinks mx-auto">
+             <input type="text" id="password" name="FirstName" placeholder="Enter Password">
+             <input id="submit" type="submit" value="Submit" onclick="checkPassword()">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid" id="bmwContainer">
+  <br>
+  <br>
+  <br>
+  <br>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-      <img class="hidden text" src="../assets/neural1.svg" style="width: 50%" height="auto">
+      <img class="hidden text" src="../assets/bmw1.svg" style="width: 50%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-      <img class="hidden image1" src="../assets/neural1.png" style="width: 60%" height="auto">
+      <img class="hidden image1" src="../assets/bmw2.svg" style="width: 40%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-      <img class="hidden image1" src="../assets/neural2.svg" style="width: 40%" height="auto">
+      <img class="hidden image1" src="../assets/bmw2.png" style="width: 75%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-        <img class="hidden image1" src="../assets/neural3.png" style="width: 50%" height="auto">
+        <img class="hidden image1" src="../assets/bmw3.svg" style="width: 40%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-        <img class="hidden text" src="../assets/neural3.svg" style="width: 40%" height="auto">
+        <img class="hidden image1" src="../assets/bmw3.png" style="width: 70%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-        <img class="hidden" src="../assets/neural2.png" style="width: 80%" height="auto">
+        <img class="hidden image1" src="../assets/bmw4.svg" style="width: 40%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-        <img class="hidden text" src="../assets/neural4.svg" style="width: 40%" height="auto">
+        <img class="hidden image1" src="../assets/bmw4.png" style="width: 70%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-        <img class="hidden image1" src="../assets/neural5.gif" style="width: 30%" height="auto">
+        <img class="hidden image1" src="../assets/bmw5.svg" style="width: 40%" height="auto">
     </div>
   </div>
   <div class="row custom">
     <div class="col-sm-12" align="center">
-        <a href="https://github.com/thophles/NEURALPOETRY"><img class="github" src="../assets/githubIcon.png" style="width: 5%; height:auto"></a>
+        <img class="image1" src="../assets/bmw5.png" style="width: 55%" height="auto">
     </div>
   </div>
+  <div class="row custom">
+    <div class="col-sm-12" align="center">
+      <video autoplay muted loop style="width: 20%" height="auto" class="vid image1">
+        <source src="../assets/flashing.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <div class="row custom">
+    <div class="col-sm-12" align="center">
+        <img class="hidden image1" src="../assets/bmw6.svg" style="width: 40%" height="auto">
+    </div>
+  </div>
+  <div class="row custom">
+    <div class="col-sm-12" align="center">
+      <video autoplay muted loop style="width: 20%" height="auto" class="vid image1">
+        <source src="../assets/bmw6.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+
+
+
+
   <div class="row bottomLinks">
     <div class="col-sm-12 col-md-3" align="center">
-        <a href="bmw.html"><img class="bottomLink1" src="../assets/BMW.svg" style="width: 60%"></a>
-    </div>
-    <div class="col-sm-12 col-md-3" align="center">
-        <a href="audreybrown.html"><img class="bottomLink1" src="../assets/AudreyBrown.svg" style="width: 60%"></a>
+        <a href="audreybrown.com"><img class="bottomLink1" src="../assets/AudreyBrown.svg" style="width: 60%"></a>
     </div>
     <div class="col-sm-12 col-md-3" align="center">
         <a href="crackedMirrors.html"><img class="bottomLink1" src="../assets/CrackedMirrors.svg" style="width: 60%"></a>
@@ -75,11 +116,11 @@
     <div class="col-sm-12 col-md-3" align="center">
         <a href="sparetoshare.html"><img class="bottomLink1" src="../assets/SparetoShare.svg" style="width: 60%"></a>
     </div>
-  </div>
-  <div class="row bottomLinks">
     <div class="col-sm-12 col-md-3" align="center">
         <a href="highkey.html"><img class="bottomLink1" src="../assets/Highkey.svg" style="width: 60%"></a>
     </div>
+  </div>
+  <div class="row bottomLinks">
     <div class="col-sm-12 col-md-3" align="center">
         <a href="sanjana.html"><img class="bottomLink1" src="../assets/SanjanaMehra.svg" style="width: 60%"></a>
     </div>
@@ -89,10 +130,22 @@
     <div class="col-sm-12 col-md-3" align="center">
         <a href="concepts.html"><img class="bottomLink1" src="../assets/Concepts.svg" style="width: 60%"></a>
     </div>
+    <div class="col-sm-12 col-md-3" align="center">
+        <a href="neuralPoetry.html"><img class="bottomLink1" src="../assets/NeuralPoetry.svg" style="width: 60%"></a>
+    </div>
   </div>
 </div>
-<br>
-<br>
+
+
+
+
+
+
+
+
+
+
+
 <div id="myNav" class="navOverlay">
   <div class="navOverlay-content" id="men">
     <ul>
@@ -102,14 +155,14 @@
     </ul>
   </div>
 </div>
-<button onclick="toggleNav()" id="button" class="hamburger menuIcon hamburger--spin" type="button">
+ <button onclick="toggleNav()" id="button" class="hamburger menuIcon hamburger--spin" type="button">
    <span class="hamburger-box">
      <span class="hamburger-inner"></span>
    </span>
  </button>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</body>
 <script src="../javascript/scroll.js"></script>
 <script src="../javascript/toggleMenu.js"></script>
+<script src="../javascript/password.js"></script>
+</body>
 </html>

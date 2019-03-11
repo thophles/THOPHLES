@@ -148,6 +148,48 @@ ul
    top: 50%;
    z-index: 99;
  }
+ input
+ {
+   display: block;
+ }
+ input[type=text], select
+ {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-style: none;
+  color: #727272;
+  text-align: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #727272;
+  border-width: 1px;
+  background-color: #000;
+  box-sizing: border-box;
+  transition: .2s;
+}
+input:focus
+{
+    outline: none;
+    border-style: solid;
+    border-color: #F06A87;
+    border-width: 2px;
+}
+#submit
+{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-style: none;
+  color: #727272;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  border-width: 1px;
+  background-color: #111;
+  box-sizing: border-box;
+  transition: .2s;
+}
 .photo
 {
    position: absolute;
